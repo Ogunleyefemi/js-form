@@ -1,11 +1,13 @@
-// let globalString = "This is a global variable";
+ $(document).ready(function() {
+  $("#formOne").submit(function() {
+    $(".person1").append("blah blah");
+    $(".person2").append("blah blah");
+    $(".animal").append("blah blah");
+    $(".exclamation").append("blah blah");
+    $(".verb").append("blah blah");
+    $(".noun").append("blah blah");
 
-// function sampleFunction() {
-//   alert(globalString);
-//   globalString = "This is a global variable update!!";
-//   alert(globalString);
-// }
-
-// alert(globalString);
-// sampleFunction();
-// alert(globalString);
+    $("#story").show();
+    event.preventDefault();
+  });
+});
