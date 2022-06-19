@@ -20,12 +20,12 @@ $(document).ready(function() {
       const verbInput = $("#verb").val();
       const nounInput = $("#noun").val();
   
-      $(".person1").append(person1Input);
-      $(".person2").append(person2Input);
-      $(".animal").append(animalInput);
-      $(".exclamation").append(exclamationInput);
-      $(".verb").append(verbInput);
-      $(".noun").append(nounInput);
+      $(".person1").text(person1Input);
+      $(".person2").text(person2Input);
+      $(".animal").text(animalInput);
+      $(".exclamation").text(exclamationInput);
+      $(".verb").text(verbInput);
+      $(".noun").text(nounInput);
   
       $("#story").show();
   
