@@ -1,9 +1,11 @@
-function sampleFunction() {
-  let localString = "This is a local variable";
-  alert(localString);
-  localString = "This is a local variable update!!";
-  alert(localString);
-}
+// let globalString = "This is a global variable";
 
-sampleFunction();
-alert(localString);
+// function sampleFunction() {
+//   alert(globalString);
+//   globalString = "This is a global variable update!!";
+//   alert(globalString);
+// }
+
+// alert(globalString);
+// sampleFunction();
+// alert(globalString);
